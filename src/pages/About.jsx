@@ -12,7 +12,7 @@ import { Link } from "react-scroll";
 
 const About = () => {
   return (
-    <section id="about" className="relative">
+    <section id="about" className="relative overflow-x-hidden">
       <div>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
