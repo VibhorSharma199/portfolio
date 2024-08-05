@@ -22,7 +22,7 @@ const Skills = () => {
         </motion.div>
         <div className="flex md:flex-row flex-col w-[100%] justify-evenly mt-10">
           <motion.div
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -10 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2 }}
             viewport={{ once: true }}
@@ -42,7 +42,7 @@ const Skills = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: 10 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2 }}
             viewport={{ once: true }}

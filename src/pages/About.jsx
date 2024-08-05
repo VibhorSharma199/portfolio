@@ -34,7 +34,7 @@ const About = () => {
         <div className="flex w-[60%] mx-auto justify-evenly flex-col md:flex-row">
           <div className="">
             <motion.img
-              initial={{ opacity: 0, x: -100 }}
+              initial={{ opacity: 0, x: -10 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 2 }}
               viewport={{ once: true }}
