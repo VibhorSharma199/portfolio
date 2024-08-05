@@ -33,8 +33,10 @@ button {
 /* Firefox */
 html {
   scrollbar-width: thin; /* or auto, or none */
+  overflow-x: hidden;
   scrollbar-color: #c27803 #0b1217; /* Thumb color and track color */
 }
 body{
+  position: relative;
   overflow-x: hidden;
 }

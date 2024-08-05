@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="h-screen bg-cover bg-no-repeat"
+        className="h-screen bg-cover bg-no-repeat relative"
         style={{
           backgroundImage:
             "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg.jpg')",
