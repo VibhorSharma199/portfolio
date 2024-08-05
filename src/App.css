@@ -1,0 +1,40 @@
+.active{
+  color:#eab308;
+}
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  /* border-radius: 50%; */
+  font-size: 24px;
+
+
+}
+/* WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 15px; /* Adjust width */
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1217; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c27803; /* Thumb color */
+  border-radius: 9999px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c27803; /* Hover color */
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin; /* or auto, or none */
+  scrollbar-color: #c27803 #0b1217; /* Thumb color and track color */
+}
+body{
+  overflow-x: hidden;
+}
